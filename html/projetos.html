@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Projetos</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li><a href="/" translate="no">Sobre Mim</a></li>
+           
+            <li><a class="checked" href="/projetos">Projetos</a></li>
+            
+            <li><a href="/socias">Socias</a></li>
+            
+            <li><a href="/contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <br>
+  <div class="title">
+       <h2>Projetos</h2>
+  </div>
+  <div class="content">
+    <div>
+        <strong>GitUsers</strong>
+        <p>Com o GitUsers poderás saber algumas informações de uma conta github sem fazer login nem cadastro</p>
+        <i class='bx bx-link' ></i> <a href="https://dsk-david.github.io/GitUsers">GitUsers</a>
+        <a href="https://github.com/DsK-David/GitUsers">Repositorio</a>
+      </div>
+      <div>
+        <strong>IPTRACKER</strong>
+        <p>Com o IPTRACKER poderás saber informações sobre um enderço IP, as informações valem muito</p>
+        <i class='bx bx-link' ></i> <a href="https://dsk-david.github.io/iptracker/">IP-TRACKER</a>
+        <a href="https://github.com/DsK-David/iptracker">Repositorio</a>
+      </div>
+      <div>
+        <strong>URL-CUTTER</strong>
+        <p>URLCUTTER é um Bom encurtador de links,rapido e eficáz</p>
+        <i class='bx bx-link' ></i> <a href="https://dsk-david.github.io/urlcutter/">URL-CUTTER</a>
+        <a href="https://github.com/DsK-David/urlcutter">Repositorio</a>
+      </div>
+      <div>
+        <strong>THUMBVIDEO</strong>
+        <p>No THUMBVIDEO poderás assistir videos com boas qualidades</p>
+        <i class='bx bx-link' ></i><a href="https://dsk-david.github.io/thumbvideo">THUMBVIDEO</a>
+        <a href="https://github.com/DsK-David/thumbvideo">Repositorio</a>
+      </div> <div>
+        <strong>MONGO-TRANSLATER</strong>
+        <p>MONGO-TRANSLATER com esse sistema poderas traduzir varias linguas pela qual voce desejar</p>
+        <i class='bx bx-link' ></i><a href="https://dsk-david.github.io/mongotranslater">MONGO-TRANSLATER</a>
+        <a href="https://github.com/DsK-David/mongotranslater">Repositorio</a>
+      </div>
+      <div>
+        <strong>Averaging-calculator</strong>
+        <p>Aqui podes calcular as médias escolares com eficácia</p>
+        <i class='bx bx-link' ></i><a href="https://dsk-david.github.io/Averaging-calculator/">Averaging-calculator</a>
+        <a href="https://github.com/DsK-David/Averaging-calculator">Repositorio</a>
+      </div>
+      <div>
+        <strong>PASSWORD-GENERATOR</strong>
+        <p>Este é um gerador de senhas gera senhas fortes imposiveis de advinhar</p>
+        <i class='bx bx-link' ></i><a href="https://dsk-david.github.io/PASSWORD-GENERATOR/">PASSWORD-GENERATOR</a>
+        <a href="https://github.com/DsK-David/PASSWORD-GENERATOR">Repositorio</a>
+      </div>
+      <div>
+        <strong>DOLIST</strong>
+        <p>DOLIST aqui podes criar listas e depois deletar para sempre</p>
+        <i class='bx bx-link' ></i><a href="https://dvisionse.github.io/DOLIST/dolist/dolist.html">DOLIST</a>
+        <a href="https://github.com/DVISIONSE/DOLIST">Repositorio</a>
+      </div>
+      <div>
+        <strong>How-is-a-weather</strong>
+        <p>Quer saber o clima de um pais ou cidade? com esse sistema consegues isso esperimenta</p>
+        <i class='bx bx-link' ></i><a href="https://github.com/DVISIONSE/How-is-a-weather-">How-is-a-weather</a>
+        <a href="https://github.com/DVISIONSE/How-is-a-weather-">Repositorio</a>
+      </div>
+  </div>
+</body>
+</html>
+<style>
+    body{
+    background: #0E1B2E;
+    font-size: 15pt;
+    font-family: monospace;
+    color: #fff;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.content div{
+    margin-top: 10px;
+    background: #010c1d;
+    color: #fff;
+    width: 400px;
+    padding: 7px;
+    height: 300px;
+    text-align: center;
+}
+.title h2{
+    color: #B9D4A0;
+    text-transform: uppercase;
+}
+.title{
+    margin: 10px;
+}
+strong{
+    color: #B9D4A0;
+}
+a{
+    color: #333;
+}
+.nav_bar{
+    margin-left: 400px;
+}
+.nav_bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    float: left;
+
+}
+.nav_bar a {
+  display: block;
+  padding: 8px;
+  background:none;
+  text-decoration: none;
+  color: #fff;
+  padding: 9px;
+
+
+}
+.checked {
+  border: 1px solid #86E2CC;
+}
+@media (max-width:320px){
+    .nav_bar{
+        margin-left: 3px;
+    }
+    a{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    .content div{
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+        
+    }
+}
+@media (min-width:375px){
+    .nav_bar{
+        margin-left: 20px;
+    }
+    a{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    .content div{
+        width: 290px;
+        height: 200px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width:425px){
+    .nav_bar{
+        margin-left: 30px;
+    }
+    a{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .content{
+        grid-template-columns: 1fr 1fr;
+    }
+    .content div{
+        width: 340px;
+        height: 200px;
+        margin-left: 3px;
+    }
+}
+@media (min-width:768px){
+    .nav_bar{
+        margin-left: 400px;
+    }
+    a{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .content{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .content div{
+        width: 400px;
+        height: 200px;
+        margin-left: 5px;
+    }
+}
+
+
+</style>

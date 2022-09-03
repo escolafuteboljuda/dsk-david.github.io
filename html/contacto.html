@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li><a href="/" translate="no">Sobre Mim</a></li>
+           
+            <li><a  href="/projetos">Projetos</a></li>
+            
+            <li translate="no"><a href="/socias">Socias</a></li>
+            
+            <li><a class="checked" href="/contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <br>
+    <div class="title">
+        <h2 translate="no">Contacto</h2>
+    </div>
+    <div class="content">
+        <form action="https://formsubmit.co/da33.veiga@gmail.com" method="POST" accept-charset="utf-8" class="contacto">
+           
+             <input type="text" id="nome" class="nome" placeholder="Seu nome" translate="no"  name="nome" required>
+             <input type="email" id="email" class="email" placeholder="Seu email" name="email" required>
+             <textarea name="user-text" id="user-text" class="texto" rows="15" cols="40" name="texto-user"></textarea>
+             <br />
+             <input type="submit" value="enviar" class="btn" translate="no">
+     </form>
+    </div>
+</body>
+<style>
+          body{
+    background: #0E1B2E;
+    font-size: 15pt;
+    font-family: monospace;
+    color: #fff;
+}
+.title h2{
+    color: #B9D4A0;
+    text-transform: uppercase;
+}
+.title{
+    margin: 10px;
+}
+.nav_bar{
+    margin-left: 400px;
+}
+.nav_bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    float: left;
+
+}
+.nav_bar a {
+  display: block;
+  padding: 8px;
+  background:none;
+  text-decoration: none;
+  color: #fff;
+  padding: 9px;
+
+
+}
+.checked {
+  border: 1px solid #86E2CC;
+}
+.content{
+    text-align: center;
+    width: 100%;
+}
+form{
+    width: 320px;
+    margin-left: 500px;
+}
+.nome,.email{
+    padding: 11px;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: 2px solid #B9D4A0;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.texto{
+    background: none;
+    border: 2px solid #B9D4A0;
+    margin-top: 10px;
+    outline: none;
+    color: #fff;
+}
+.btn{
+    padding: 9px;
+    width: 310px;
+    background: #B9D4A0;
+    border: 1px solid #B9D4A0;
+    border-radius: 10px;
+}
+@media (min-width:320px){
+    .nav_bar{
+        margin-left: 3px;
+    }
+    a{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 2px;
+    }
+    .nome,.email{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .texto{
+        width: 270px;
+        margin-left: 2px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:375px){
+    .nav_bar{
+        margin-left: 20px;
+    }
+    a{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .nome,.email{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .texto{
+        width: 270px;
+        margin-left: 2px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:420px){
+    .nav_bar{
+        margin-left: 25px;
+    }
+    a{
+        padding: 5px;
+        font-size: 16px;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+    }
+    .nome,.email{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .texto{
+        width: 270px;
+        margin-left: 2px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:768px){
+    .nav_bar{
+        margin-left: 400px;
+    }
+    a{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .content{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    form{
+        width: 400px;
+        height: 200px;
+        margin-left: 450px;
+    }
+    .nome,.email{
+        width: 300px;
+        margin-left: 5px;
+    }
+    .texto{
+        width: 300px;
+        margin-left: 2px;
+    }
+}
+</style>
+</html>

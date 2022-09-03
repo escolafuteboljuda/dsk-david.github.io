@@ -1,0 +1,13 @@
+body{
+    background: #0E1B2E;
+}
+.name_title h3{
+    color: #B9D4A0;
+    text-transform: uppercase;
+}
+.name_title{
+    margin: 10px;
+}
+.content{
+    top:50%;
+}
