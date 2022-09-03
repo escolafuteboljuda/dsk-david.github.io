@@ -11,13 +11,13 @@ app.get("/", function(req,res){
 })
 
 app.get('/contacto' , (req,res) => {
-   res.sendFile(__dirname + '/html/contacto.html')
+   res.sendFile(__dirname + 'contacto.html')
 })
 app.get('/projetos', (req,res) => {
-    res.sendFile(__dirname + '/html/projetos.html')
+    res.sendFile(__dirname + 'projetos.html')
 })
 app.get('/socias', (req,res) => {
-    res.sendFile(__dirname + '/html/socias.html')
+    res.sendFile(__dirname + 'socias.html')
 })
 
 server.listen(port, function(){
